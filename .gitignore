@@ -1,0 +1,38 @@
+# CMake build
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+/*.make
+/*.ninja
+/*.vcxproj*
+/*.sln
+/*.user
+/*.ipch
+/*.pdb
+/*.obj
+/*.o
+/*.exe
+/*.out
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Submodules
+build/libpqxx/build/
+
+# Environment variables
+.env
+
+# Logs, temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated documentation
+docs/html/
+docs/latex/
