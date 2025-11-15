@@ -59,8 +59,8 @@ int main(int argc, char* argv[]) {
     }
     case 4: {
         const int THREADS = 8;                       // потоки генерации
-        const int TOTAL_RECORDS = 10'000'000;         // всего сотрудников
-        const int BATCH_SIZE = 100'000;               // размер батча
+        const int TOTAL_RECORDS = 1'000'000;         // всего сотрудников
+        const int BATCH_SIZE = 10'000;               // размер батча
         const int PER_THREAD = TOTAL_RECORDS / THREADS;
 
         std::queue<std::vector<Employee>> queue;
