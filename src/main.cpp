@@ -96,7 +96,7 @@ int main(int argc, char* argv[]) {
 
                 for (int i = 0; i < PER_THREAD; ++i) {
                     batch.push_back(gen.generateRandom());
-                    std::cout << "Thread " << t + 1 << " generated " << (i + 1) << " / " << PER_THREAD << "\r";
+                    std::cout << "Thread " << t + 1 << " generated " << (i + 1) << " / " << PER_THREAD << "\n";
 
                     if (batch.size() == BATCH_SIZE) {
                         {
