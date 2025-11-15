@@ -4,17 +4,14 @@ project(employee_app)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# PostgreSQL
 find_package(PostgreSQL REQUIRED)
 
-# libpqxx
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(PQXX REQUIRED libpqxx)
+add_subdirectory(libpqxx)
 
 include_directories(
     include
     ${PostgreSQL_INCLUDE_DIRS}
-    ${PQXX_INCLUDE_DIRS}
+    libpqxx/include
 )
 
 add_executable(myApp
@@ -24,5 +21,4 @@ add_executable(myApp
     src/employee_generator.cpp
 )
 
-# Линкуем напрямую с pqxx и pq
-target_link_libraries(myApp PRIVATE pqxx pq)
+target_link_libraries(myApp PRIVATE pqxx ${PostgreSQL_LIBRARIES})
