@@ -97,11 +97,13 @@ make
 Приложение подключается к PostgreSQL, используя параметры из файла `.env`.  
 По умолчанию можно задать следующие значения:
 
+```ini
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=123
 POSTGRES_DB=employees
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432 
+```
 
 Эти параметры будут автоматически подставляться при запуске приложения.  
 Если нужно, можно изменить их в файле `.env` перед сборкой или запуском.
