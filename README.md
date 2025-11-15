@@ -39,8 +39,9 @@ git submodule update --init --recursive
 2. Установите зависимости:  
 ```bash
 sudo apt update
-sudo apt install -y cmake g++ libpqxx-dev libpq-dev postgresql
+sudo apt install -y cmake g++ libpq-dev postgresql
 ```
+libpqxx подключается как submodule, отдельная установка libpqxx-dev не нужна.
 
 3. Создайте базу данных:  
 ```bash
