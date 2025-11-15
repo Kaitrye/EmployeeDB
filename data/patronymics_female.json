@@ -1,0 +1,23 @@
+{
+  "A": ["Alexandrovna", "Abramovna", "Antonovna", "Arkadievna", "Anatolievna"],
+  "B": ["Borisovna", "Bogdanovna", "Benediktovna", "Bronislavovna", "Bartholomeevna"],
+  "C": ["Constantinovna", "Cyrilovna", "Christoforovna", "Casimirovna", "Cornelievna"],
+  "D": ["Dmitrievna", "Danilovna", "Denisovna", "Davidovna", "Dorofeevna"],
+  "E": ["Egorovna", "Evlampievna", "Emelianovna"],
+  "F": ["Fedorovna", "Filippovna", "Florovna"],
+  "G": ["Georgievna", "Grigorievna", "Glebovna"],
+  "H": ["Hristoforovna"],
+  "I": ["Ivanovna", "Ignatievna", "Ilyinichna"],
+  "K": ["Konstantinovna", "Kirillovna", "Klimovna"],
+  "L": ["Leonidovna", "Lavrentievna", "Lukichna"],
+  "M": ["Mikhailovna", "Maksimovna", "Matveevna"],
+  "N": ["Nikolaevna", "Nikitichna"],
+  "O": ["Olegovna", "Osipovna"],
+  "P": ["Pavlovna", "Petrovna"],
+  "R": ["Romanovna", "Rostislavovna"],
+  "S": ["Sergeevna", "Stepanovna", "Stanislavovna"],
+  "T": ["Timofeevna", "Tarasovna"],
+  "V": ["Vladimirovna", "Viktorovna", "Valerievna"],
+  "Y": ["Yurievna", "Yaroslavovna"],
+  "Z": ["Zakharovna", "Zinovyevna"]
+}
